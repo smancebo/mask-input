@@ -1,6 +1,6 @@
 {
   "name": "angular-safe.masktext",
-  "description": "AngularJs directive for make your imput text masked",
+  "description": "AngularJs directive for make your input text masked",
   "main": "source/safe.mask-text.js",
   "authors": [
     "Samuel J Mancebo"
@@ -12,7 +12,6 @@
   ],
   "homepage": "https://github.com/smancebo/mask-input",
   "ignore": [
-    "**/.*",
     "node_modules",
     "bower_components",
     "test",
