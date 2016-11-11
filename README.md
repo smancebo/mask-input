@@ -6,12 +6,12 @@
 #### via Bower
 
 ```
-bower install --save angular-safe.mask-text
+bower install --save angular-safe.mask-input
 ```
 
 ## Description
 
-Mask-Input is an [AngularJS](https://https://github.com/angular/angular.js) directive for applying mask to your inputs, you just need put the `mask` attribute in your input and specify the desire mask format 
+Mask-Input is an [AngularJS](https://https://github.com/angular/angular.js) directive for applying mask to your inputs, you just need put the `mask` attribute in your input and specify the desire mask format
 
 
 ## Usage
@@ -88,9 +88,5 @@ Using the previous example
 $scope.txtId= "M334999774447"; //@000-000-00-000-0
 ```
 
-will produce 
+will produce
 > M334-999-77-444-7
-
-
-
-
