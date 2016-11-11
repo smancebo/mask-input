@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html ng-app="masktest">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <style>
+        .has-error {
+            border: 1px solid red
+        }
+    </style>
+</head>
+
+<body ng-controller="mask">
+
+    <div class="container">
+
+      <h1>Mask Input</h1>
+
+      <div class="form-group">
+        <label>Mask ###-#######-#</label>
+        <input type="text" class="form-control" mask="###-#######-#" ng-model="txtCedula" />
+      </div>
+      <div class="form-group">
+        <label>Mask (000) 000-0000</label>
+        <input type="text" class="form-control" mask="(000) 000-0000" ng-model="txtTelefono" />
+      </div>
+      <div class="form-group">
+        <label>Mask 0-00-00000-0</label>
+          <input type="text" class="form-control" mask="0-00-00000-0" ng-model="txtRnc" />
+      </div>
+      <div class="form-group">
+        <label>Mask @@-0000-@-##</label>
+        <input type="text" class="form-control" mask="@@-0000-@-##" ng-model="txtPasaporte" />
+      </div>
+    </div>
+
+
+    <script src="bower_components/jquery/dist/jquery.min.js" charset="utf-8"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/safe-masktext/safe.mask-text.min.js" charset="utf-8"></script>
+    <script src="app/app.js" charset="utf-8"></script>
+
+
+</body>
+
+</html>

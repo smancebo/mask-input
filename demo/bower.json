@@ -1,0 +1,21 @@
+{
+  "name": "maskdemo",
+  "authors": [
+    "Samuel J Mancebo <smancebo@cosefi.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "angular-messages": "^1.5.8"
+  }
+}
